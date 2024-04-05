@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?família=Roboto+Serif:opsz,wght@8.. 144.100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+   preenchimento da borda:border-color: black;
+}
+
+
+header {
+  background-color: #252525;
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  /* width: 30vw; */
+  height: 15vh;
+  /* padding: 10px
+  margin-left: 2rem;
+}
+
+.midiassociais {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  border: solid green;
+}
+
+.midiassociais img {
+  /* width: 10%; */
+  height: 7vh;
+  /* padding: 30px; */
+}
+
+.dogchapeu {
+  width: 100%;
+  height: 120vh;
+  background-image: url("dogchapeu.png");
+  /* padding: 30%; */
+  /* background-size: 100% 100vh; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.dogchapeu div {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-weight: 700px;
+  text-align: center;
+  font-size: 2.5rem;
+  /* display: inline-block; */
+}
+
+.dogchapeu div img {
+  width: 10%;
+  /* height: 20px; */
+  /* padding: 10%; */
+}
+
+body {
+  height: 50%;
+  width: 100%;
+  background-image: url("dogleao.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: flex end;
+  background-position: left;
+}
+
+.dogleao {
+  width: 100%;
+  height: 120vh;
+  background-image: url("dogleao.png");
+  /* padding: 30%; */
+  /* background-size: 100% 100vh; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: start;
+}
+
+.dogleao div {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dogpretoweb {
+  width: 100%;
+  height: 120vh;
+  background-image: url("dogpretoweb.png");
+  /* padding: 30%; */
+  /* background-size: 100% 100vh; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  justify-content: end;
+}
+
+.dogpretoweb div {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* position: relative;
+  bottom: 8rem; */
+}
+
+p {
+  /* width: 1rem; */
+  /* height: 5%; */
+  font-size: 1.5rem;
+  color: #3a342f;
+  margin: 1rem;
+  font-family: "Roboto Serif", serif;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #3a342f;
+  font-weight: 500px;
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  font-size: 2rem;
+  color: white;
+  font-weight: 500px;
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  width: 20%;
+  height: 8vh;
+  font-size: 1rem;
+  border-radius: 30px;
+  background-color: #3a342f;
+  color: #f4f2f3;
+}
+
+.apoioHavaianasAmericanas {
+  height: 25vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h4 {
+  color: #eb4a7b;
+  font-size: 1.5rem;
+}
+
+footer {
+  height: 30vh;
+  width: 100%;
+  padding: 50px;
+  background-color: #eb4a7b;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+footer div {
+  margin-left: 5rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+  color: white;
+}
